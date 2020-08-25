@@ -248,6 +248,7 @@
 .share {
   @extend %clearfix;
   text-align: right;
+  margin-top: $spacing-unit/2;
 
   span {
     color: $gray-color;

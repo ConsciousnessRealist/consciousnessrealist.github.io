@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Information Closure Theory of Consciousness"
+id: 2020-08-21-Chang2020
 date:   2020-08-21
 tags: Theory
 comments: true
@@ -8,6 +9,7 @@ type: Review
 paperauthors: "Chang AYC, Biehl M, Yen Y, Kanai R"
 articlelink: https://doi.org/10.3389/fpsyg.2020.01504
 year: 2020
+journalinfo: "Frontiers in Psychology, 11, 1504"
 ---
 A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine.
 

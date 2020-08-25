@@ -40,7 +40,7 @@ layout: default
 
     {% if page.type and page.type == 'Review' %}
     <a class="article-link" href="{{ page.articlelink }}">
-        {{page.paperauthors}} ({{page.year}}) {{page.title}}. {{page.journalinfo}}. 
+        {{page.paperauthors}} ({{page.year}}) <i>{{page.title}}</i>. {{page.journalinfo}}. 
       </a>
     </h4>
     {% endif %}
