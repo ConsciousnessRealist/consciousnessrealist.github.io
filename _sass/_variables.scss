@@ -1,0 +1,71 @@
+/* ==========================================================================
+   Variables
+   ========================================================================== */
+
+/*
+   Typography
+   ========================================================================== */
+
+// Google fonts api
+@import url("//fonts.googleapis.com/css?family=Jura:400,300,400italic,700");
+@import url("//fonts.googleapis.com/css?family=Nunito:400,300,400italic,700");
+@import url("//fonts.googleapis.com/css?family=Roboto:400,300,400italic,700");
+
+// For icons
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
+
+$font-size-base    : 16px !default; 
+
+$font-weight-light : 300 !default;
+$font-weight-bold  : 700 !default;
+
+/* typefaces */
+$font-family-h1    : "Jura", Arial, sans-serif !default;
+$font-family-h2    : "Nunito", Arial, sans-serif !default;
+$font-family-base  : "Roboto", Helvetica, Arial, sans-serif !default;
+$font-family-serif : Garamond, serif !default;
+
+/* headline scale */
+$h-size-1: 4.0em !default; 
+$h-size-2: 2.0em !default; 
+$h-size-3: 1.125em !default; // ~18px
+$h-size-4: 1.0625em !default; // ~17px
+$h-size-5: 1.03125em !default; // ~16.5px
+$h-size-6: 1em !default; // ~16px
+
+
+/*
+   Colors
+   ========================================================================== */
+
+$background-color : #f1f1f1 !default;
+$site-bg-color    : #ebebeb !default;
+$text-color       : #303030 !default;
+$primary-color    : #FF9B97 !default;
+$white-color      : #fff !default;
+$white-color-dark : darken($white-color, 25%);
+$yellow-color	  : #FFE3B2 !default;
+$blue-color		  : #03016E !default;
+
+$gray-color:       #828282 !default;
+$gray-color-light: lighten($gray-color, 40%) !default;
+$gray-color-dark:  darken($gray-color, 25%) !default;
+
+/*
+   Links
+   ========================================================================== */
+$link-color: #5679a3 !default;
+$link-hover-color: lighten($link-color, 5%) !default;
+
+
+/*
+   Size
+   ========================================================================== */
+
+// Width of the content area
+$content-width:    1000px !default;
+$spacing-unit : 30px !default;
+$padding-unit : ($spacing-unit/2) !default;
+
+$navbar-height : 50px;
+$catbar-height : 50px;

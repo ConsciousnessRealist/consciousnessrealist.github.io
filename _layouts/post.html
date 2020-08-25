@@ -1,0 +1,71 @@
+---
+layout: default
+---
+<article class="post container card">
+  <header class="post-header">
+    
+    <div class="catbar">
+      <h3 class="post-type">{{ page.type }}</h3>
+      <ul class="tags">
+        {% for tag in page.tags %}
+          <li>
+            <h3 class="post-cat">{{ tag }}</h3>            
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+    
+    {% if page.type and page.type == 'Review' %}
+    <h4 class="post-authors">{{ page.paperauthors }}  ({{page.year}})
+      <a class="article-link" href="{{ page.articlelink }}">
+        <i class="fas fa-external-link-alt"></i>
+      </a>
+    </h4>
+    {% endif %}
+    
+    <h2 class="post-title">{{ page.title }}</h2>
+    <hr>
+    <span class="post-meta">
+      <time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date: "%b %-d, %Y" }}</time>
+      <span class="post-author">by {{ site.author.name }}</span>
+    </span>
+
+  </header>
+
+  <div class="post-content">
+
+    {{ content }}
+
+    <hr> 
+
+    {% if page.type and page.type == 'Review' %}
+    <a class="article-link" href="{{ page.articlelink }}">
+        {{page.paperauthors}} ({{page.year}}) {{page.title}}. {{page.journalinfo}}. 
+      </a>
+    </h4>
+    {% endif %}
+
+    <aside class="share">
+
+      <span>Share this post: </span>
+
+      <a href="http://twitter.com/share?text={{page.type}}: {{page.title}}. &amp;url={{site.url}}{{page.url}} &amp;via={{site.author.twitterhandle}}"
+      onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+        <i class="fa fa-twitter-square"></i>
+      </a>
+
+      <a href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{page.url}}"
+      onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+        <i class="fa fa-facebook-square"></i>
+      </a>
+
+    </aside>
+  </div>
+</article>
+
+<article class="post container card">
+  <div class="post-content">
+    {% include comments.html %}
+  </div>
+</article>
+

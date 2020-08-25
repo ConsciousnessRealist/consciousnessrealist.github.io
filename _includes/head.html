@@ -1,0 +1,16 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<!-- Unsure which of the below I need, they are related to the feed. 
+https://github.com/jekyll/jekyll-feed
+ -->
+<link rel="alternate" type="application/atom+xml" title="{{ site.title }} Feed" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+
+{% feed_meta %} 
+{% seo %}
+
+<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+
+<!-- My kit from font awesome -->
+<script src="https://kit.fontawesome.com/df328c7691.js" crossorigin="anonymous"></script>

@@ -1,2 +1,65 @@
-name: Hank Quinlan, Horrible Cop
+# Site Settings
+locale                   : "en-US"
+title                    : "Conscious(ness) Realist"
+subtitle                 : "Publication Reviews and Commentaries"
+name                     : "Larissa Albantakis"
+description              : "Reviews of papers related to consciousness."
+url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "/consciousnessrealist" # the subpath of your site, e.g. "/blog"
+repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+
+# Site Author
+author:
+  name             : "Larissa Albantakis"
+  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "I am an **amazing** person."
+  location         : "Madison, WI"
+  email            : "consciousnessrealist@gmail.com"
+  twitterhandle    : "ConsciRealist"
+  links:
+    - label: "Email"
+      icon: "fa fa-envelope"
+      url: "mailto:consciousnessrealist@gmail.com"
+    - label: "Twitter"
+      icon: "fa fa-twitter"
+      url: "https://twitter.com/ConsciRealist"
+    # - label: "Facebook"
+    #   icon: "fab fa-fw fa-facebook-square"
+    #   url: "https://facebook.com/"
+    # - label: "GitHub"
+    #   icon: "fab fa-fw fa-github"
+    #   url: "https://github.com/"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   url: "https://instagram.com/"
+    # - label: "Website"
+    #   icon: "fas fa-fw fa-link"
+    #   # url: "https://your-website.com"
+
+
+# Comments
+disqus_shortname: "consciousnessrealist"
+
+# Analytics
+google_analytics: "UA-176052628-1"
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - github-pages
+
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
 markdown: kramdown
+
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones

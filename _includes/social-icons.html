@@ -1,0 +1,7 @@
+<div class="social-icons">
+  <ul class="text-left">
+    {% for link in site.author.links %}
+        <li><a href="{{ link.url }}"><i class="{{ link.icon }}"></i></a></li>
+    {% endfor %}
+  </ul>
+</div>

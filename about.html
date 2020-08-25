@@ -1,0 +1,26 @@
+---
+layout: default
+title: About
+permalink: /about/
+<!-- page_num: 1 -->
+---
+
+<article class="post container card">
+  <header class="post-header">
+  	
+  	 <h2 class="post-title">{{ page.title }} this blog</h2>
+  </header>
+  <div class="post-content">
+    {% include_relative abouts/about_blog.html %}
+  </div>
+</article>
+
+<article class="post container card">
+  <header class="post-header">
+  	 <h2 class="post-title">{{ page.title }} me</h2>
+  </header>
+  <div class="post-content">
+    {% include_relative abouts/about_me.html %}
+  </div>
+</article>
+
