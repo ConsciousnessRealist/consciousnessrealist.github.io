@@ -37,7 +37,7 @@
   padding: 160px 0px; //top-bottom left-right
   margin-bottom: 30px;
   @include media-query($on-phone) {
-    padding: 30px 0px;
+    padding: 60px 0px;
   }
 
   .overlay {
@@ -54,6 +54,9 @@
     text-align: center;
     font-size: calc(0.25em + 60 * (100vw /1000));
     margin-bottom: 10px;
+    @include media-query($on-phone) {
+      margin-top: 0px;
+    }
   }
   .txt-subtitle {
     color: $white-color;
@@ -206,35 +209,26 @@
       font-size: 1.8rem;
     }
 
-    h3 {
-      text-transform: uppercase;
-      float: left;
-      /*@include media-query($on-phone) {
-        float: none;
-        display: block;
-        margin-bottom: 5px;
-      }*/
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
     }
     
+    li {
+      margin: 0;
+      padding-left: 15px;
+      text-transform: uppercase;
+      display: inline-block;
+      float: right;
+    }
+    
+    li:first-child {
+      padding-left: 0; 
+    } 
+
     .tags {
-      li {
-        padding: 5px;
-        margin: 0;
-        text-transform: uppercase;
-        float: right;
-        display: inline-block;
-        @include media-query($on-phone) {
-          padding-left: 0;
-          float: left;
-     /*     float: none;
-          display: block;
-          width: 100%;*/
-        }
-      }
-      
-      h3 {
         color: darken($yellow-color, 10%);
-      }
     }
   }
   .article-authors {

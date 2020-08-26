@@ -1,11 +1,11 @@
 <article class="post card container">
   <header class="post-header">
     <div class="catbar">
-      <h3 class="post-type">{{ post.type }}</h3>
-      <ul class="tags">
+      <ul>
+        <li style="float:left"><h3>{{ post.type }}</h3></li>
         {% for tag in post.tags %}
-          <li>
-            <p><h3 class="post-cat">{{ tag }}</h3></p>            
+          <li class="tags">
+            <h3>{{ tag }}</h3>            
           </li>
         {% endfor %}
       </ul>

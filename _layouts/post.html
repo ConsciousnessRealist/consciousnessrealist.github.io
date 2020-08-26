@@ -5,11 +5,11 @@ layout: default
   <header class="post-header">
     
     <div class="catbar">
-      <h3 class="post-type">{{ page.type }}</h3>
-      <ul class="tags">
+      <ul>
+        <li style="float:left"><h3>{{ page.type }}</h3></li>
         {% for tag in page.tags %}
-          <li>
-            <h3 class="post-cat">{{ tag }}</h3>            
+          <li class="tags">
+            <h3>{{ tag }}</h3>            
           </li>
         {% endfor %}
       </ul>
