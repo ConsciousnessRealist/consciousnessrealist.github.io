@@ -6,8 +6,6 @@
   max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
   margin-right: auto;
   margin-left: auto;
-  padding-right: $spacing-unit;
-  padding-left: $spacing-unit;
   @extend %clearfix;
 }
 
@@ -82,23 +80,26 @@
   float: none;
   position: relative;
   min-height: $navbar-height;
-  margin-bottom: 20px;
   @extend %clearfix;  // This is to avoid pictures or other things to exceed the box
 }
 
 .nav {
   list-style: none;
-  padding: 5px;
+  padding: 0;
   margin: 0;
   @extend %clearfix;  // This is to avoid pictures or other things to exceed the box
 
   li {
-    padding: 20px;
+    padding: 15px 0px 15px $spacing-unit;
     margin: 0;
     text-transform: uppercase;
     float: left;
     display: inline-block;
+    @include media-query($on-phone) {
+      padding: 5px 0px 5px $spacing-unit/2;
+    } 
   }
+  
 
   a {
     padding: 0;
@@ -207,6 +208,11 @@
       margin-bottom: 10px;
       line-height: 1.3em;
       font-size: 1.8rem;
+      @include media-query($on-phone) {
+        line-height: 1.3em;
+        font-size: 1.0rem;
+
+      }
     }
 
     ul {
