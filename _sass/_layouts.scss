@@ -211,7 +211,13 @@
         text-transform: uppercase;
         float: right;
         display: inline-block;
+        @include media-query($on-phone) {
+          float: none;
+          display: block;
+          width: 100%;
+        }
       }
+      
       h3 {
         color: darken($yellow-color, 10%);
       }

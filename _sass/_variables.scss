@@ -66,6 +66,7 @@ $link-hover-color: lighten($link-color, 5%) !default;
 $content-width:    1000px !default;
 $spacing-unit : 30px !default;
 $padding-unit : ($spacing-unit/2) !default;
+$on-phone     : 480px !default;
 
 $navbar-height : 50px;
 $catbar-height : 50px;

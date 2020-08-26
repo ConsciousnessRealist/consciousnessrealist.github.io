@@ -55,6 +55,12 @@ h2 {
     padding-left: 16em;
     color: $gray-color-light;
   }
+
+  @include media-query($on-phone) {
+    small{
+      padding-left: 0;
+    }
+  }
 }
 
 a {

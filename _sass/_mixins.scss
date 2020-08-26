@@ -15,3 +15,9 @@
   -webkit-transition: $transition;
   transition: $transition;
 }
+
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
