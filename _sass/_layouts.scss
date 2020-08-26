@@ -77,12 +77,14 @@
   position: relative;
   min-height: $navbar-height;
   margin-bottom: 20px;
+  @extend %clearfix;  // This is to avoid pictures or other things to exceed the box
 }
 
 .nav {
   list-style: none;
   padding: 5px;
   margin: 0;
+  @extend %clearfix;  // This is to avoid pictures or other things to exceed the box
 
   li {
     padding: 20px;
@@ -90,11 +92,6 @@
     text-transform: uppercase;
     float: left;
     display: inline-block;
-  }
-
-  @include media-query($on-phone) {
-    width: percentage(1/3);
-    text-align: center;
   }
 
   a {
@@ -208,11 +205,11 @@
     h3 {
       text-transform: uppercase;
       float: left;
-      @include media-query($on-phone) {
+      /*@include media-query($on-phone) {
         float: none;
         display: block;
         margin-bottom: 5px;
-      }
+      }*/
     }
     
     .tags {
@@ -223,9 +220,10 @@
         float: right;
         display: inline-block;
         @include media-query($on-phone) {
-          float: none;
+          padding-left: 0;
+     /*     float: none;
           display: block;
-          width: 100%;
+          width: 100%;*/
         }
       }
       
