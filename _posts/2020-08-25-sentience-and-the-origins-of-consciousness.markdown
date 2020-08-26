@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Sentience and the Origins of Consciousness: From Cartesian Duality to Markovian Monism"
-id: 2020-08-20-Friston2020
+disqus_id: "2020-08-20-Friston2020"
 date:   2020-08-20
 tags: Free_Energy
 comments: true

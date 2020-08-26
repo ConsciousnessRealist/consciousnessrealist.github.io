@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Hard criteria for empirical theories of consciousness"
-id: 2020-09-01-Doerig2020
+disqus_id: 2020-09-01-Doerig2020
 date:   2020-08-19
 tags: Theory
 comments: true

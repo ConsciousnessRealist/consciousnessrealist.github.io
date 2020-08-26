@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Information Closure Theory of Consciousness"
-id: 2020-08-21-Chang2020
+disqus_id: 2020-08-21-Chang2020
 date:   2020-08-21
 tags: Theory
 comments: true
