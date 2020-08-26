@@ -53,7 +53,7 @@
     font-size: calc(0.25em + 60 * (100vw /1000));
     margin-bottom: 10px;
     @include media-query($on-phone) {
-      margin-top: 0px;
+      margin-top: $spacing-unit;
     }
   }
   .txt-subtitle {
