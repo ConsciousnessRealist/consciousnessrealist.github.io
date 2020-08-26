@@ -65,6 +65,7 @@ $link-hover-color: lighten($link-color, 5%) !default;
 // Width of the content area
 $content-width:    1000px !default;
 $spacing-unit : 30px !default;
+$spacing-unit-phone : ($spacing-unit/2) !default;
 $padding-unit : ($spacing-unit/2) !default;
 $on-phone     : 480px !default;
 

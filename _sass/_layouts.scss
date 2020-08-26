@@ -90,13 +90,13 @@
   @extend %clearfix;  // This is to avoid pictures or other things to exceed the box
 
   li {
-    padding: 15px 0px 15px $spacing-unit;
+    padding: $spacing-unit 0px 15px $spacing-unit;
     margin: 0;
     text-transform: uppercase;
     float: left;
     display: inline-block;
     @include media-query($on-phone) {
-      padding: 5px 0px 5px $spacing-unit/2;
+      padding: $spacing-unit-phone 0px 15px $spacing-unit-phone;
     } 
   }
   
