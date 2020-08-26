@@ -36,6 +36,9 @@
   @extend %clearfix;  // This is to avoid pictures or other things to exceed the box
   padding: 160px 0px; //top-bottom left-right
   margin-bottom: 30px;
+  @include media-query($on-phone) {
+    padding: 30px 0px;
+  }
 
   .overlay {
     background: rgba(#000, .75);
@@ -191,6 +194,7 @@
   min-height: $catbar-height;
   margin-top: -20px;
   margin-bottom: 20px;
+  @extend %clearfix;
 }
 
 .post {
@@ -221,6 +225,7 @@
         display: inline-block;
         @include media-query($on-phone) {
           padding-left: 0;
+          float: left;
      /*     float: none;
           display: block;
           width: 100%;*/
