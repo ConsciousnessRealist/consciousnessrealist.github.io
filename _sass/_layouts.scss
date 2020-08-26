@@ -26,8 +26,9 @@
    Header
    ========================================================================== */
 .header {
-  background: #000 url(../images/cover_bscan.jpg) no-repeat 50% 0px;
+  background: #000 url(../images/cover_bscan.jpg) no-repeat 100% 0px;
   @include background-size(contain);
+  background-position: center; /* Center the image */
   border-bottom: 1px solid $primary-color;
   border-top: 3px solid $primary-color;
   min-height: 250px;
@@ -89,6 +90,11 @@
     text-transform: uppercase;
     float: left;
     display: inline-block;
+  }
+
+  @include media-query($on-phone) {
+    width: percentage(1/3);
+    text-align: center;
   }
 
   a {
@@ -202,6 +208,11 @@
     h3 {
       text-transform: uppercase;
       float: left;
+      @include media-query($on-phone) {
+        float: none;
+        display: block;
+        margin-bottom: 5px;
+      }
     }
     
     .tags {
@@ -223,7 +234,11 @@
       }
     }
   }
-  .post-authors {
+  .article-authors {
+    @include media-query($on-phone) {
+          float: none;
+    }
+    
     a {
         margin-left: 5px; 
     }
