@@ -262,10 +262,13 @@
   }
 
   img {
-    max-width: 35%;
+    max-width: 100%;
     float: left;
     margin-right: $spacing-unit;
     display: block;
+    @include media-query($on-phone) {
+          float: none;
+    }
   }
 }
 
