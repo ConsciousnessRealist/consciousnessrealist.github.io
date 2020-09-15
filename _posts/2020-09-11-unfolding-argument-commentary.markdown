@@ -3,7 +3,7 @@ layout: post
 title:  "Unfolding the Substitution Argument"
 disqus_id: 2020-09-11-UnfoldingArgument
 date:   2020-09-14
-tags: Theory
+tags: Theory IIT
 comments: true
 type: Commentary
 mathjax: true

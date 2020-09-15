@@ -2,15 +2,37 @@
 layout: post
 title:  "Hard criteria for empirical theories of consciousness"
 disqus_id: 2020-09-01-Doerig2020
-date:   2020-08-19
-tags: Theory Another
+date:   2030-10-19
+tags: Theory
 comments: true
 type: Review
 paperauthors: "Doerig A, Schurger A, Herzog MH"
 articlelink: https://doi.org/10.1080/17588928.2020.1772214
 year: 2020
 journalinfo: "Cognitive Neuroscience"
+mathjax: true
 ---
+Test 
+
+$$
+\begin{aligned}
+  & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
+  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
+  & (x_1, \ldots, x_n) \left( \begin{array}{ccc}
+      \phi(e_1, e_1) & \cdots & \phi(e_1, e_n) \\
+      \vdots & \ddots & \vdots \\
+      \phi(e_n, e_1) & \cdots & \phi(e_n, e_n)
+    \end{array} \right)
+  \left( \begin{array}{c}
+      y_1 \\
+      \vdots \\
+      y_n
+    \end{array} \right)
+\end{aligned}
+$$
+
+$$\Phi$$
+
 Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
 
 A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
