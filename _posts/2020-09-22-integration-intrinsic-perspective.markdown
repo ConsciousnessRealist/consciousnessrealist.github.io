@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Integration and the intrinsic perspective"
-disqus_id: 2020-09-20-IntegrationIntrinsicPerspective
-date:   2020-09-20
+disqus_id: 2020-09-22-IntegrationIntrinsicPerspective
+date:   2020-09-22
 tags: IIT
 comments: true
 type: Commentary
