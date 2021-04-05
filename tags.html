@@ -1,0 +1,28 @@
+---
+layout: default
+title: Tags
+permalink: /tags/
+---
+
+<div class = "post-list">
+
+{% assign sortedTags = site.tags | sort %}
+{% for tag in sortedTags %}
+
+<article class="post container card">
+  <header class="post-header">
+      {% capture tag_name %}{{ tag | first }}{% endcapture %}
+      <h2 class="post-title uppercase"><div id="{{ tag_name }}">{{ tag_name }}</div></h2>
+    </header>
+
+  <span class = "post-inline-title">
+      {% for post in site.tags[tag_name] %}
+      {{post.date | date: "%Y-%m-%d"}}<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> <em>({{ post.type }})</em>
+      <p></p>
+      {% endfor %}
+  </span>
+</article>
+
+{% endfor %}
+
+</div>

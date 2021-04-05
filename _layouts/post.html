@@ -9,7 +9,7 @@ layout: default
         <li style="float:left"><h3>{{ page.type }}</h3></li>
         {% for tag in page.tags %}
           <li class="tags">
-            <h3>{{ tag }}</h3>            
+            <h3><a href="/tags/#{{ tag }}">{{ tag }}</a></h3>            
           </li>
         {% endfor %}
       </ul>

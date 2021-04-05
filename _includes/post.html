@@ -5,7 +5,7 @@
         <li style="float:left"><h3>{{ post.type }}</h3></li>
         {% for tag in post.tags %}
           <li class="tags">
-            <h3>{{ tag }}</h3>            
+            <h3><a href="/tags/#{{ tag }}">{{ tag }}</a></h3>            
           </li>
         {% endfor %}
       </ul>

@@ -6,11 +6,23 @@
 
       <ul class="nav" id = "myLinks">
         <li><a href="{{ site.baseurl }}/">{{ 'home' }}</a></li>
-          {% for page in site.pages %}
-            {% if page.title and page.title != 'Home' %}
+        {% for page in site.pages %}
+            {% if page.title and page.title != 'Home' and page.title != 'Tags' %}
              <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
             {% endif %}
-          {% endfor %}
+        {% endfor %}
+        <li class="dropdown">
+            <button class="dropbtn"><a href="/tags/">{{ 'tags' }}</a>
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              {% assign sortedTags = site.tags | sort %}
+              {% for tag in sortedTags %}
+              {% capture tag_name %}{{ tag | first }}{% endcapture %}
+                <a href="/tags/#{{ tag_name }}">{{ tag_name }}</a>
+              {% endfor %}
+            </div>    
+        </li>
       </ul>
 
       <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
