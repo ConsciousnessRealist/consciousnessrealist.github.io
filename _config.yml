@@ -4,7 +4,7 @@ title                    : "Conscious(ness) Realist"
 subtitle                 : "Publication Reviews and Commentaries"
 name                     : "Larissa Albantakis"
 description              : "Reviews of papers related to consciousness."
-url                      : https://consciousnessrealist.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://consciousnessrealist.com/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : #"/consciousnessrealist" # the subpath of your site, e.g. "/blog"
 repository               : "ConsciousnessRealist/consciousnessrealist.github.io"# GitHub username/repo-name
 
