@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "On the dangers of conflating strong and weak versions of a theory of consciousness"
-disqus_id: 2021-04-08-Michel2020
-date:   2021-04-08
+disqus_id: 2021-04-16-Michel2020
+date:   2021-04-16
 tags: NCC IIT
 comments: true
 type: Review
