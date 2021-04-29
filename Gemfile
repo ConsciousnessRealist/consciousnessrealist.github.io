@@ -14,4 +14,5 @@ gem 'jekyll-paginate'
 gem 'jekyll-seo-tag'
 gem 'jekyll-sitemap'
 gem 'kramdown'
+gem 'jekyll-thumbnail'
 
