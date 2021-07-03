@@ -23,7 +23,7 @@ There are three main threads that are weaved together in the article: (1) a dist
 
 Let's start with markers of consciousness. Markers are useful indicators of consciousness, but do not have to be mechanistically relevant for consciousness. The ability to report, for example, is a marker of consciousness and NCCs can also be considered markers. With respect to IIT, given initially promising empirical data, one could consider integrated information a marker of consciousness and work on refining the measure purely based on its predictive power. This view has been labeled "empirical IIT" and there is nothing wrong with taking such an approach (except that it misses the point). 
 
-The goal of IIT is to offer an explanation of subjective experience in physical terms. At the heart of the theory is a postulated identify between an experience and the cause-effect structure (CES) of its physical substrate. This view has been termed "fundamental IIT", but I will drop the "fundamental" now, except when necessary. 
+The goal of IIT is to offer an explanation of subjective experience in physical terms. At the heart of the theory is a postulated identity between an experience and the cause-effect structure (CES) of its physical substrate. This view has been termed "fundamental IIT", but I will drop the "fundamental" now, except when necessary. 
 
 #### Who is conflating empirical with fundamental IIT?
 
