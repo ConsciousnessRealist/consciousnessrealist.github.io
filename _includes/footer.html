@@ -4,7 +4,19 @@
     {% include social-icons.html %}
 
 
-    <small>&copy; {{ site.time | date: '%Y' }} Larissa Albantakis. Made with <a href="http://jekyllrb.com" target="_blank">Jekyll</a> and inspired by <a href="https://github.com/nandomoreirame/zetsu" target="_blank">Zetsu</a>.</small> 
+    <small>&copy; {{ site.time | date: '%Y' }} Larissa Albantakis. Made with <a href="http://jekyllrb.com" target="_blank">Jekyll</a> and inspired by <a href="https://github.com/nandomoreirame/zetsu" target="_blank">Zetsu</a>.</small>     
+    <p> </p>
     
   </div>
+
+  <div class="container">
+
+    <form style="border-top:1px solid #ccc;padding:3px;text-align:center;" action="https://tinyletter.com/Albantakis" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/Albantakis', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+    	<p><label for="tlemail">Enter your email address to receive updates </label>
+    	<input type="text" style="width:140px" name="email" id="tlemail" />
+    	<input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" /></p>
+    	<small><a href="https://tinyletter.com" target="_blank">powered by TinyLetter</a></small>
+    </form>
+   </div>
+
 </footer>

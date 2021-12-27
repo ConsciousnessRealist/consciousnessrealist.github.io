@@ -398,6 +398,7 @@
   }
 }
 
+
 /*
    Social
    ========================================================================== */
@@ -470,5 +471,10 @@
   small {
     color: darken($gray-color-light, 25%);
     font-size: 12px;
+  }
+
+  label {
+    color: $gray-color-dark;
+    font-size: 14px;
   }
 }
