@@ -33,7 +33,7 @@
   position: relative;
   @extend %clearfix;  // This is to avoid pictures or other things to exceed the box
   padding: 160px 0px; //top-bottom left-right
-  margin-bottom: 30px;
+  /*margin-bottom: 30px;*/
   @include media-query($on-phone) {
     padding: 60px 0px;
   }
@@ -178,13 +178,29 @@
 }
 
 /*
-   Search
+   Search box
    ========================================================================== */
 
+.searchbox{
+  background: lighten($yellow-color, 10%);
+  /*border: 1px solid $primary-color;*/
+  padding: $spacing-unit/3 $spacing-unit 0;
+  box-shadow: 0px 1px 2px rgba(#000, .2);
+  margin-top: 0px;
+  margin-bottom: $spacing-unit;
+  .search-results {
+    overflow: hidden;
+    width: 100%;
+    padding-top: $spacing-unit/3;
+    a {
+      color: inherit;
+      margin-left: $spacing-unit/2
+    }
+  }
+}
 .search {
-    display: table;
-    float: right;
-    padding: 15px;
+    display: block;
+    float: left;
     input {
         background: none;
         border: none;
@@ -201,7 +217,7 @@
         font-family: $font-family-base;
         @include transition(all .6s ease);
         cursor: pointer;
-        color: $white-color-dark;
+        color: $gray-color-dark;
         & + div {
             position: relative;
             height: 28px;
@@ -215,7 +231,7 @@
                 right: 0;
                 top: 0;
                 fill: none;
-                stroke: lighten($primary-color, 10%);
+                stroke: $primary-color;
                 stroke-width: 1.5px;
                 stroke-dashoffset: 212.908 + 59;
                 stroke-dasharray: 59 212.908;
