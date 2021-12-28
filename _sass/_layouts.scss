@@ -196,6 +196,9 @@
       color: inherit;
       margin-left: $spacing-unit/2
     }
+    @include media-query($on-phone) {
+      font-size: 10px;
+    }
   }
 }
 .search {
@@ -247,6 +250,9 @@
                 svg {
                     stroke-dasharray: 150 212.908;
                     stroke-dashoffset: 300;
+                    @include media-query($on-phone) {
+                      stroke-dashoffset: 100;
+                    }
                 }
             }
         }
