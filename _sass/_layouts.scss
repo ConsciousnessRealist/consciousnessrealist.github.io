@@ -216,7 +216,7 @@
         line-height: 18px;
         margin: 5px 0;
         font-size: 14px;
-        -webkit-appearance: none;
+        /*-webkit-appearance: none;*/
         font-family: $font-family-base;
         @include transition(all .6s ease);
         cursor: pointer;
