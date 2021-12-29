@@ -244,15 +244,15 @@
         &:not(:placeholder-shown),
         &:focus {
             width: 160px;
+            @include media-query($on-phone) {
+              width: 50%;
+            }
             padding: 0 4px;
             cursor: text;
             &+ div {
                 svg {
                     stroke-dasharray: 150 212.908;
                     stroke-dashoffset: 300;
-                    @include media-query($on-phone) {
-                      stroke-dashoffset: 100;
-                    }
                 }
             }
         }
