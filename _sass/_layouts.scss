@@ -244,9 +244,7 @@
         &:not(:placeholder-shown),
         &:focus {
             width: 160px;
-            @include media-query($on-phone) {
-              width: 50%;
-            }
+            resize: vertical;
             padding: 0 4px;
             cursor: text;
             &+ div {
