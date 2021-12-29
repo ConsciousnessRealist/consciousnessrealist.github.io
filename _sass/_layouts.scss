@@ -188,11 +188,11 @@
   box-shadow: 0px 1px 2px rgba(#000, .2);
   margin-top: 0px;
   margin-bottom: $spacing-unit;
+  overflow: hidden;
   .search-results {
     overflow: hidden;
     width: 100%;
     padding-top: $spacing-unit/3;
-    resize: vertical;
     a {
       color: inherit;
       margin-left: $spacing-unit/2
@@ -206,6 +206,7 @@
     display: block;
     float: left;
     input {
+        overflow: hidden;
         background: none;
         border: none;
         outline: none;
@@ -245,7 +246,6 @@
         &:not(:placeholder-shown),
         &:focus {
             width: 160px;
-            resize: vertical;
             padding: 0 4px;
             cursor: text;
             &+ div {
