@@ -1,0 +1,43 @@
+---
+layout: default
+title: Q&A
+permalink: /q&a/
+---
+
+<article class="post container card">
+  <header class="post-header">
+    <h2 class="post-title">{{ page.title }}</h2>
+  </header>
+  <div class="post-content">
+    If you have a burning question related to the contents of this blog, IIT, or my work more in general, send it to me: 
+    <span class="social-icons" style="margin-left: 20px;">
+        <a href="{{ site.author.links[0].url }}"><i class="{{ site.author.links[0].icon }}"></i></a>
+    </span>
+    <p> I will do my best to reply either to your email or on this page. The goal for this Q&A is to compile the answers to a set of frequently asked questions that may be useful for a wider audience.</p>
+  </div>
+</article>
+
+
+{% for question in site.questions %}
+  {% include qanswer.html %}
+{% endfor %}
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    $(this).find('.caret-icon').toggleClass('fa-caret-up fa-caret-down');
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+
+</script>
+

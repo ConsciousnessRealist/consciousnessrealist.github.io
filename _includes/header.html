@@ -7,7 +7,8 @@
 
         <ul class="nav" id = "myLinks">
           <li><a href="{{ site.baseurl }}/">{{ 'home' }}</a></li>
-          {% for page in site.pages %}
+          {% assign sorted_pages = site.pages | sort:"title" %}
+          {% for page in sorted_pages %}
               {% if page.title and page.title != 'Home' and page.title != 'Tags' %}
                <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
               {% endif %}

@@ -267,6 +267,48 @@
 
 
 /*
+   Q&A
+   ========================================================================== */
+.collapsible {
+  color: white;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  float: inline-block;
+}
+
+.question {
+  h2 {
+    display: inline-block;
+    float: left;
+    padding-top: $spacing-unit/2;
+  }
+
+  a {
+    color: inherit;
+  }  
+  
+  .content {
+    display: none;
+    overflow: hidden;
+  }
+  .active {
+    h2 {
+      font-weight: bold;  
+      i {
+        
+      }
+    }
+  } 
+  .collapsible:hover {
+    h2 {
+      text-decoration: underline;  
+      color: $primary-color;
+    }
+  }
+}
+
+/*
    Posts
    ========================================================================== */
 .catbar {

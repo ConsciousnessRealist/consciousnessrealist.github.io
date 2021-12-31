@@ -1,0 +1,30 @@
+<article class="post card container">
+  <header class="post-header question">
+    <div >
+      {% for tag in question.tags %}
+        <li class="tags">
+          <h3><a href="/tags/#{{ tag }}">{{ tag }}</a></h3>            
+        </li>
+        {% endfor %}
+    </div>
+    <button type="button" class="collapsible"><h2 class="post-title" id="{{ question.id }}"><i class="caret-icon fa fa-caret-down"></i> {{ question.question }}</h2></button>
+    <div class="content">
+      <hr style="margin-top: 0px; margin-bottom: 0px">
+      <div class="post-content">
+        {{ question.content }}
+      </div>
+    </div> 
+    
+  </header>
+
+    <span class="post-meta">
+      Answered on 
+      <time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ question.date | date: "%b %-d, %Y" }}</time>
+      {% if question.author %}
+      <span class="post-author">by {{ question.author }}</span>
+      {% else %}
+      <span class="post-author">by {{ site.author.name }}</span>
+      {% endif %}
+    </span>
+  
+</article>

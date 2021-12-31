@@ -37,6 +37,10 @@ author:
     #   # url: "https://your-website.com"
 
 
+# Collections
+collections:
+  - questions
+
 # Comments
 disqus_shortname: "consciousnessrealist"
 
