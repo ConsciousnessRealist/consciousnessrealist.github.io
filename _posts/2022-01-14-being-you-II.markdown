@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Being You - Part II"
-disqus_id: 2022-01-13-Seth2022b
-date:   2022-01-13
+disqus_id: 2022-01-14-Seth2022b
+date:   2022-01-14
 tags: Theory
 comments: true
 type: Book Review
