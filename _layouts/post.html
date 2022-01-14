@@ -15,7 +15,7 @@ layout: default
       </ul>
     </div>
     
-    {% if page.type and page.type == 'Review' %}
+    {% if page.type and (page.type == 'Review' or page.type == 'Book Review') %}
     <h4 class="article-authors">{{ page.paperauthors }}  ({{page.year}})
       <a class="article-link" href="{{ page.articlelink }}">
         <i class="fas fa-external-link-alt"></i>
@@ -38,9 +38,15 @@ layout: default
 
     <hr> 
 
-    {% if page.type and page.type == 'Review' %}
+    {% if page.type and (page.type == 'Review' or page.type == 'Book Review') %}
     <a class="article-link" href="{{ page.articlelink }}">
-        {{page.paperauthors}} ({{page.year}}) <i>{{page.title}}</i>. {{page.journalinfo}}. 
+        {{page.paperauthors}} ({{page.year}}) 
+          {% if page.publication_title %}
+            <i>{{page.publication_title}}</i>. 
+          {% else %}
+            <i>{{page.title}}</i>. 
+          {% endif %}
+          {{page.journalinfo}}. 
       </a>
     </h4>
     {% endif %}

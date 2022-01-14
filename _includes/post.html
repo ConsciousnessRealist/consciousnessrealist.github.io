@@ -11,7 +11,7 @@
       </ul>
     </div>
 
-    {% if post.type and post.type == 'Review' %}
+    {% if post.type and (post.type == 'Review' or post.type == 'Book Review') %}
     <h4 class="article-authors">{{ post.paperauthors }}  ({{post.year}})
       <a class="article-link" href="{{ post.articlelink }}">
         <i class="fas fa-external-link-alt"></i>
