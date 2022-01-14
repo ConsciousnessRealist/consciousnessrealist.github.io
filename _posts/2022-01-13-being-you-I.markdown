@@ -29,7 +29,7 @@ Before I say anything else, I will say that "Being you" is very much worth readi
 Nevertheless, there are a few issues on which our positions do not align and outlining these differences could be illuminating (but note that there is about 95% agreement overall, compared to other factions within the consciousness science community). 
 
 ### Commentary
-Below, I will follow the structure of the book and its four chapters. However, most of my comments concentrate on the first two sections, as my focus lies on consciousness rather than the self and I pretty much agree in full with Anil's perspective on other minds and his concerns around machine consciounsess.
+Below, I will follow the structure of the book and its four chapters. However, most of my comments concentrate on the first two sections, as my focus lies on consciousness rather than the self and I pretty much agree in full with Anil's perspective on other minds and his concerns around machine consciousness.
 
 #### I: Level
 
