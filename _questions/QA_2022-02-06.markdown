@@ -1,0 +1,12 @@
+---
+id: 2022-06-02-emergence
+question: Is consciousness emergent?
+date: 2022-02-06
+tags: X
+<!-- author: unknown -->
+<!-- page_num: 1 -->
+---
+
+That's a tricky question because "emergent" is a very controversial term and people mean very different things when they use it. Nevertheless, there is an obvious sense in which consciousness is emergent: the spatio-temporal scale at which our conscious experiences "run" seem to involve neurons or groups of neurons (rather than atoms or quarks etc.) and time scales of tens of milliseconds. Accordingly, the physical substrate of our consciousness is not to be found at the micro level of physics. However, "emergent" is often paired or contrasted with epiphenomenal, or associated with some dynamically emergent pattern that is observer-dependent. Consciousness is observer-independent, so it cannot be emergent in the mere sense of "level of description". There has to be an observer-independent reason why consciousness runs at the specific spatio-temporal scale it runs at. In that sense, consciousness is not like a flock of birds. It is real, meaning it exists in a fundamental way. 
+
+For more see my [interview with David Garofalo on David Garofalo's Corner](https://www.davidgarofaloscorner.com/post/on-consciousness).

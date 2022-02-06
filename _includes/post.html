@@ -11,12 +11,14 @@
       </ul>
     </div>
 
-    {% if post.type and (post.type == 'Review' or post.type == 'Book Review') %}
-    <h4 class="article-authors">{{ post.paperauthors }}  ({{post.year}})
-      <a class="article-link" href="{{ post.articlelink }}">
-        <i class="fas fa-external-link-alt"></i>
-      </a>
-    </h4>
+    {% if post.type %}
+      {% if post.type == 'Review' or post.type == 'Book Review' %}
+        <h4 class="article-authors">{{ post.paperauthors }}  ({{post.year}})
+          <a class="article-link" href="{{ post.articlelink }}">
+            <i class="fas fa-external-link-alt"></i>
+          </a>
+        </h4>
+      {% endif %}
     {% endif %}
     
     <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
