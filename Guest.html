@@ -1,0 +1,20 @@
+---
+layout: default
+title: Guest
+permalink: /guest/
+---
+
+<article class="post container card">
+  <header class="post-header">
+    <h2 class="post-title">{{ page.title }} Posts</h2>
+  </header>
+  <div class="post-content">
+    Very happy to present you select commentaries and reviews by guest writers. Opinions are the writers.
+  </div>
+</article>
+
+
+{% for post in site.guest %}
+  {% include post.html %}
+{% endfor %}
+

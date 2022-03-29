@@ -39,7 +39,11 @@ author:
 
 # Collections
 collections:
-  - questions
+  questions:
+    output: false
+  guest:
+    output: true
+    permalink: /:collection/:title
 
 # Comments
 disqus_shortname: "consciousnessrealist"
