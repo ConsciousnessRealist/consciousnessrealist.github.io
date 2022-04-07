@@ -29,7 +29,11 @@ layout: default
     <hr>
     <span class="post-meta">
       <time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date: "%b %-d, %Y" }}</time>
-      <span class="post-author">by {{ site.author.name }}</span>
+       {% if page.author %}
+        <span class="post-author">by {{ page.author }}</span>
+       {% else %}
+        <span class="post-author">by {{ site.author.name }}</span>
+       {% endif %}
     </span>
 
   </header>
