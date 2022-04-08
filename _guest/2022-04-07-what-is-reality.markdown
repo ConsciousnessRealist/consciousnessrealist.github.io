@@ -35,7 +35,7 @@ Upon measuring the color, this becomes suddenly well-determined, and we observe,
 
 ##### *Imagine a pair of socks whose color is quantum, so it can be in a superposition of pink and blue.*
 
-As you can see, the measurement process by which the superposition suddenly ``collapses''  is very weird, and in fact it is problematic. 
+As you can see, the measurement process by which the superposition suddenly "collapses"  is very weird, and in fact it is problematic. 
 
 The superposition principle can also be applied to composite systems, and gives rise to entanglement. 
 If we had a pair of socks with a quantum color (pink or blue), these could be in a superposition in which both are blue or both pink. This is even weirder, as I could separate these socks, leaving one in Innsbruck and sending the other to Jupiter. If I measured the sock in Innsbruck and obtained blue, I would immediately know that the sock in Jupiter is blue. 
@@ -91,13 +91,11 @@ In general, the limit cannot be guessed from a finite number of cases---one woul
 This is, in essence, the problem of induction. 
 The limit is thus, in principle, unreachable, inaccessible. 
 
-Well, the idea is that *for me, reality is a limit*:  
-Something that offers new surprises, new landscapes, new energy regimes, new physics, new possibilities without end.  
-This may sound pessimistic, as it implies that reality is unreachable, for we are finite. 
+Well, the idea is that *for me, reality is a limit*: Something that offers new surprises, new landscapes, new energy regimes, new physics, new possibilities without end. This may sound pessimistic, as it implies that reality is unreachable, for we are finite.
 But, on the contrary, for me it is a message full of hope, as it implies that what can be discovered has no ceiling. 
-This message fills us with humility, but also with power---the transformative power of knowledge. 
-In the words of David Deutsch, we are at the beginning of infinity, and we will always be. 
-Compare what we know now with what we knew 100 years ago, and now imagine what we will know in 100 or 1000 years (if we still exist). 
+This message fills us with humility, but also with power---the transformative power of knowledge.
+In the words of David Deutsch, we are at the beginning of infinity, and we will always be.
+Compare what we know now with what we knew 100 years ago, and now imagine what we will know in 100 or 1000 years (if we still exist).
 If we are now at the beginning of infinity, in 100 or 1000 years we will also be at the beginning of infinity---one cannot reach infinity. 
 
 That reality is a limit is my way of expressing that I don't think that full knowledge of reality can be reached. 
