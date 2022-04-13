@@ -11,8 +11,6 @@ mathjax: true
 author: "Gemma de las Cuevas"
 ---
 
-##### This blog contribution is partly based on the article entitled  ["La realidad es más rara de lo que imaginábamos"](https://lamaletadeportbou.com/articulos/la-realidad-es-mas-rara-de-lo-que-imaginabamos/) published in La Maleta de Portbou, n. 51, April-March 2022, which itself is based on the [dialogue](https://macaya.caixaforum.org/ca/p/que-es-la-realitat-_a28984715) that took place in Palau Macaya, Barcelona (Catalonia) on October 27th and 28th, 2021.
-
 What is reality? 
 What an important and difficult question. 
 How odd: the more basic the questions, the more difficult the answers. 
@@ -163,4 +161,5 @@ I also think that these concepts are so wonderful and far-reaching that they oug
 
 Going full circle, I do not know what reality is, but I know that thinking about these topics is a dream come true---a dream come real, I am tempted to say, but that would seem to imply that I know what reality is, and that is very, very far from reality.
 
+##### This blog contribution is partly based on the article entitled  ["La realidad es más rara de lo que imaginábamos"](https://lamaletadeportbou.com/articulos/la-realidad-es-mas-rara-de-lo-que-imaginabamos/) published in La Maleta de Portbou, n. 51, April-March 2022, which itself is based on the [dialogue](https://macaya.caixaforum.org/ca/p/que-es-la-realitat-_a28984715) that took place in Palau Macaya, Barcelona (Catalonia) on October 27th and 28th, 2021.
 
