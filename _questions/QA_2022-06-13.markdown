@@ -3,7 +3,7 @@ id: 2022-06-13-markov
 question: Is IIT Markovian?
 date: 2022-06-13
 tags: IIT
-sender: Alex Meier
+sender: Alex Maier
 <!-- page_num: 1 -->
 ---
 
