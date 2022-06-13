@@ -1,0 +1,14 @@
+---
+id: 2022-06-13-markov
+question: Is IIT Markovian?
+date: 2022-06-13
+tags: IIT
+sender: Alex Meier
+<!-- page_num: 1 -->
+---
+
+The assumption in IIT is that *micro* mechanisms are indeed Markovian with order 1. Handwaivingly, this is because memory requires a mechanism, and if the micro elements had mechanisms within themselves they would not be micro. 
+
+Such micro system (described by micro transition probability matrices) can be mapped into supervening macro systems with fewer elements and smaller state spaces, which often end up non-markovian (or at least > order 1). For now, we have two ways worked out how this can be done: [coarse-graining](https://doi.org/10.1093/nc/niw012) and [black-boxing](http://dx.plos.org/10.1371/journal.pcbi.1006114). Both can produce non-markovian macro-tpms. However, this non-markovianity of the macro level is due to the micro information that was averaged or disregarded at the micro level. When we search for the optimal spatio-temporal scale, we also search over the number of micro time steps that are grouped into a macro time step and evaluate the macro elements' interaction at that time scale. All other influences are causally marginalized, as they are not intrinsic to the scale that we are evaluating.
+
+Recorded data can also appear non-markovian because the spatio-temporal scale of the recording device averages or makes snapshots at a particular macro time scale of the system. Again, such non-markovian dependencies are not intrinsic to the system and should be discounted. 

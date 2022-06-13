@@ -18,6 +18,9 @@
   </header>
 
     <span class="post-meta">
+      {% if question.sender %}
+      Asked by <span class="post-author">{{ question.sender }}</span>.
+      {% endif %}
       Answered on 
       <time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ question.date | date: "%b %-d, %Y" }}</time>
       {% if question.author %}

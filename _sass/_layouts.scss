@@ -282,11 +282,10 @@
     display: inline-block;
     float: left;
     padding-top: $spacing-unit/2;
+    a {
+      color: inherit;
+    }
   }
-
-  a {
-    color: inherit;
-  }  
   
   .content {
     display: none;
