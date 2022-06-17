@@ -29,6 +29,9 @@
       {% else %}
         <span class="post-author">by {{ site.author.name }}</span>
       {% endif %}
+      {% if post.editor %}
+        <span class="post-author"> (edited by {{ post.editor }})</span>
+      {% endif %}
     </span>
   </header>
   <div class="post-content">
