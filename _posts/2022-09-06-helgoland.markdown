@@ -45,7 +45,7 @@ To account for quantum phenomena, Rovelli posits an additional aspect of the rel
 
 What shape and form do interactions between objects take in Rovelli's picture? Here is what I gathered: "The 'quantum state' $$\psi$$ is always a relative state." (p. 83) In the classical picture of IIT (and even the quantum extension I am working on), there is still an absolute (but possibly mixed) state associated with a set of units. Unfortunately (for me), "Helgoland" is rather light on the formal workings of the relational interpretation of quantum physics. I guess I will have to check the primary literature.
 
-Here are a few more hints: "The relation perspective takes the theory [QM] as is [...] with its sketchy description of the world, and accepts indeterminacy, as QBism does. But while QBism is about the information of a subject, the relational understanding of quantum theory is about the structure of the world." (p. 87), and then there is a footnote on p. 81.
+Here are a few more hints: "The relational perspective takes the theory [QM] as is [...] with its sketchy description of the world, and accepts indeterminacy, as QBism does. But while QBism is about the information of a subject, the relational understanding of quantum theory is about the structure of the world." (p. 87), and then there is a footnote on p. 81.
 
 ##### [Footnote p. 81: "The problem with quantum mechanics is the apparent contradictions between two laws of the theory: one describes what happens in a 'measurement,'' and the other in the 'unitary' evolution, namely when there is no measurement. The relational interpretation is the idea that both are correct: the first regards the events relative to the system in interaction, the second regards the events relative to other systems."]
 
