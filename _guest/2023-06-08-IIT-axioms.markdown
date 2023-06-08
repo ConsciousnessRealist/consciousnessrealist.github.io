@@ -82,7 +82,7 @@ In an attempt to reframe how we interpret IIT's axioms, my hope is that *these b
 
 <!-- <img src="../images/BokiMilinkovic/BMilinkov.JPG" alt="" width="200" height="250" /> -->
 
-![Boki](../images/BokiMilinkovic/BMilinkovic.JPG){:style="float: left; margin-left: 0px; margin-right: 20 px;" width="25%" @include media-query($on-phone) {width: 100%;}}
+![Boki](../images/BokiMilinkovic/BMilinkovic.JPG){:style="float: left; margin-left: 0px; margin-right: 20 px;" width="25%"}
 
 I'm currently a Doctoral Researcher in Computational Neuroscience at the University of Melbourne where I explore formal measures of emergence and their application to neurophysiological data and complex neural systems in the context of how they might inform our understanding of brains and minds. Practically, I use large-scale brain modelling and information theory to explore the macroscopic activity unfolding in coupled dynamical systems that represent whole-brain activity in global states of consciousness. With a background in Neuroscience, Mathematics, Biochemistry, and Psychology I have a transdisciplinary approach to studying the mind, and a deep passion for communicating across disciplinary divides. Amongst other things, in my spare time I write creatively and train martial arts. Sporadically tweeting on @MilinkovBorjan
 
