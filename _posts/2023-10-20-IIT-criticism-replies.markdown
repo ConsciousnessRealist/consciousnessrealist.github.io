@@ -91,7 +91,7 @@ Insights gained from such theoretical work can then be used to develop more spec
 
 Despite the recent update to IIT version 4.0, the theory remains under development. I certainly would not rule out an alternative formulation that, for instance, is more palatable in terms of its extrapolations, and I would encourage everyone with ideas in that direction to go for it. The measures of success, however, must remain explanatory power and conceptual consistency, not intuition or personal bias.
 
-##### **Acknowledgements:** Many thanks to Tom Bugnon, Jonathan Lang, and my fellow IIT contributors affiliated with the [Center for Sleep and Consciousness at UW Madison](https://centerforsleepandconsciousness.psychiatry.wisc.edu/) for their help with compiling the references. 
+##### **Acknowledgements:** Many thanks to Tom Bugnon, Jonathan Lang, and my fellow IIT contributors affiliated with the [Center for Sleep and Consciousness at UW Madison](https://centerforsleepandconsciousness.psychiatry.wisc.edu/) for their help with compiling the references, and to Jeremiah Hendren for detailed edits. 
 
 
 
